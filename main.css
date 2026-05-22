@@ -1,0 +1,51 @@
+body
+{
+    font-family: monospace;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main
+{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.lista-projektow
+{
+    list-style-type: none;
+    padding: 0;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul.lista-projektow li
+{
+    width: 50%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 5px #000;
+}
+
+ul.lista-projektow li:hover
+{
+    background-color: #e0f0ff;
+}
